@@ -1,8 +1,36 @@
 <?php
 
+/*
+FORM HTML
+<!--<form class="col s12" action="contact.php" method="post">
+    <div class="row">
+        <div class="input-field col s6">
+            <i class="mdi-action-account-circle prefix white-text"></i>
+            <input id="icon_prefix" name="name" type="text" class="validate white-text">
+            <label for="icon_prefix" class="white-text">Name</label>
+        </div>
+        <div class="input-field col s6">
+            <i class="mdi-communication-email prefix white-text"></i>
+            <input id="icon_email" name="email" type="email" class="validate white-text">
+            <label for="icon_email" class="white-text">Email</label>
+        </div>
+        <div class="input-field col s12">
+            <i class="mdi-editor-mode-edit prefix white-text"></i>
+            <textarea id="icon_prefix2" name="message" class="materialize-textarea white-text"></textarea>
+            <label for="icon_prefix2" class="white-text">Message</label>
+        </div>
+        <div class="col offset-s7 s5">
+            <button class="btn waves-effect waves-light red darken-1" type="submit">Submit
+                <i class="mdi-content-send right white-text"></i>
+            </button>
+        </div>
+    </div>
+</form>-->
+*/
+
 if(isset($_POST['email'])) {
 
-    $email_to = "YOUR EMAIL ID GOES HERE";
+    $email_to = "jason@heardtechnology.com";
  
     $email_subject = "Website Contact";
 

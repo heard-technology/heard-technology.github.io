@@ -76,6 +76,9 @@ nav ul a {
     display: block;
     font-weight: 300;
     padding: 0px 15px;
+}
+
+a {
     transition: all 300ms ease-out;
 }
 
@@ -269,4 +272,8 @@ nav a.button-collapse {
 
 footer.page-footer {
     margin-top: 0px !important;
+}
+
+.link-text-white {
+    color: #FFF;
 }
