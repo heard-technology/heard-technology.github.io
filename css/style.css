@@ -37,7 +37,13 @@
     color:white;
 }
 
-.brand-logo{
+@media only screen and (max-width: 992px) {
+    nav .brand-logo{
+        min-width: 250px;
+    } 
+}  
+
+nav .brand-logo {
     position: absolute;
     display: inline-block;
     font-size: 1.8em !important;
