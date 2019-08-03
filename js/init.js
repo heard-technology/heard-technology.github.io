@@ -1,7 +1,7 @@
 (function($){
   $(function(){
 
-    $('.button-collapse').sideNav();
+    $('.sidenav').sidenav();
 	$('.scrollspy').scrollSpy();
 
     /*** Animate word ***/
@@ -157,7 +157,7 @@
 		$newWord.removeClass('is-hidden').addClass('is-visible');
 	}
 
-	$('.button-collapse').sideNav({
+	$('.sidenav').sidenav({
 		menuWidth: 240, // Default is 240
 		closeOnClick: true // Closes side-nav on <a> clicks, useful for Angular/Meteor
 	});

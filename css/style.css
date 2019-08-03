@@ -277,3 +277,8 @@ footer.page-footer {
 .link-text-white {
     color: #FFF;
 }
+
+.sidenav li>a:hover {
+    color: #FF0000;
+    background-color: #FFF;    
+}

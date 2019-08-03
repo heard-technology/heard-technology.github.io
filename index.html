@@ -6,9 +6,13 @@
     <meta name="theme-color" content="#2196F3">
     <title>Heard Technology</title>
 
+    <!--  Scripts-->
+    <script src="min/plugin-min.js"></script>
+    <script src="min/custom-min.js"></script>    
+
     <!-- CSS  -->
     <link href="min/plugin-min.css" type="text/css" rel="stylesheet">
-    <!-- <link href="min/custom-min.css" type="text/css" rel="stylesheet" > -->
+    <!-- <link href="min/custom-min.css" type="text/css" rel="stylesheet" > -->    
     <link href="css/style.css" type="text/css" rel="stylesheet">
 
     <!-- Favicons -->
@@ -43,17 +47,17 @@
                     <li><a href="#team">Team</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
-                <!--<ul id="nav-mobile" class="side-nav">
-                    <li><a href="#intro">Service</a></li>
-                    <li><a href="#work">Work</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a>-->
             </div>
-        </div>
+            <a href="#" data-target="slideout" class="sidenav-trigger">☰</a>                 
+        </div>       
     </nav>
 </div>
+<ul id="slideout" class="sidenav">
+        <li><a href="#intro">Service</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+</ul>
 
 <!--Hero-->
 <div class="section no-pad-bot" id="index-banner">
@@ -369,11 +373,5 @@
         </div>
     </div>
 </footer>
-
-
-    <!--  Scripts-->
-    <script src="min/plugin-min.js"></script>
-    <script src="min/custom-min.js"></script>
-
     </body>
 </html>
