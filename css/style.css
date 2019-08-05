@@ -288,3 +288,7 @@ footer.page-footer {
     color: #FF0000;
     background-color: #FFF;    
 }
+
+ul.square {
+    list-style-type: square !important;
+}
